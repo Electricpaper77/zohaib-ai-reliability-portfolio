@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio proof artifacts and demo/test metrics for Zohaib Ahmed's AI reliability projects.">
+    <title>Proof | Zohaib Ahmed</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2310243e'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='Arial' font-size='12' font-weight='700' fill='white'%3EZA%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/">
+          <span class="brand-mark">ZA</span>
+          <span>
+            <span class="brand-name">Zohaib Ahmed</span>
+            <span class="brand-role">Hiring proof dashboard</span>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a data-nav href="/">Portfolio</a>
+          <a data-nav href="/proof/">Proof</a>
+          <a data-nav href="/resume/">Resume</a>
+          <a data-nav href="/contact/">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Evidence cards</p>
+          <h1>Proof artifacts, demo metrics, and verification methods</h1>
+          <p>This page separates portfolio/test evidence from production claims. It is designed for recruiters and hiring teams who need to quickly inspect what each project proves, how it is verified, and where the limits are.</p>
+          <div class="actions">
+            <a class="button primary" href="/assets/zohaib-ahmed-ai-solutions-engineer-resume.txt" download>Download Resume</a>
+            <a class="button secondary" href="/contact/">Contact</a>
+          </div>
+          <div class="scope-note">Metric Scope: All metrics are portfolio/demo/test artifacts unless explicitly marked as production customer data.</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container proof-grid">
+          <article class="evidence-card">
+            <h2>AgentTrust IQ</h2>
+            <p>LLM evaluation and AI reliability platform for RAG/agent workflows.</p>
+            <div class="evidence-block">
+              <h3>What it proves</h3>
+              <ul>
+                <li>RAG and agent workflows can be gated with eval checks before release.</li>
+                <li>Risk signals can be logged as auditable JSONL records.</li>
+                <li>Safety decisions can route to release, block, or escalation states.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Metrics</h3>
+              <div class="metric-table">
+                <div class="metric-row"><span>Eval pass rate</span><strong>91%</strong></div>
+                <div class="metric-row"><span>Hallucination-risk rate</span><strong>6.8%</strong></div>
+                <div class="metric-row"><span>Citation precision</span><strong>0.94</strong></div>
+                <div class="metric-row"><span>Refusal accuracy</span><strong>0.88</strong></div>
+                <div class="metric-row"><span>p95 latency</span><strong>1.1s</strong></div>
+                <div class="metric-row"><span>Cost/request</span><strong>&lt;$0.01 demo estimate</strong></div>
+                <div class="metric-row"><span>Test count</span><strong>42</strong></div>
+                <div class="metric-row"><span>JSONL log count</span><strong>312</strong></div>
+              </div>
+            </div>
+            <div class="evidence-block">
+              <h3>Artifacts</h3>
+              <ul>
+                <li>Citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense.</li>
+                <li>Regression gates, JSONL audit logs, release/block/escalate logic.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Verification method</h3>
+              <ul>
+                <li>Run demo eval cases, inspect logged decision records, and compare regression outputs against expected gate behavior.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Limitations</h3>
+              <ul>
+                <li>Portfolio/demo metrics only; not presented as production customer telemetry.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <a class="text-link" href="https://ai-agent-reliability-platform-rtcd.vercel.app/" target="_blank" rel="noopener noreferrer">Open AgentTrust IQ</a>
+            </div>
+          </article>
+
+          <article class="evidence-card">
+            <h2>AgentComply AI</h2>
+            <p>Synthetic audit-evidence prototype for regulated AI-agent support workflows.</p>
+            <div class="evidence-block">
+              <h3>What it proves</h3>
+              <ul>
+                <li>Regulated workflows can expose policy match, risk score, approval state, and reason code.</li>
+                <li>Synthetic actions can demonstrate audit-readiness without implying customer data.</li>
+                <li>Decision states can be structured as allow, flag, escalate, or block.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Metrics</h3>
+              <div class="metric-table">
+                <div class="metric-row"><span>Eval pass rate</span><strong>94%</strong></div>
+                <div class="metric-row"><span>Hallucination-risk rate</span><strong>2.4%</strong></div>
+                <div class="metric-row"><span>Citation precision</span><strong>N/A policy evidence</strong></div>
+                <div class="metric-row"><span>Refusal accuracy</span><strong>0.90</strong></div>
+                <div class="metric-row"><span>p95 latency</span><strong>0.9s</strong></div>
+                <div class="metric-row"><span>Cost/request</span><strong>&lt;$0.01 demo estimate</strong></div>
+                <div class="metric-row"><span>Test count</span><strong>36</strong></div>
+                <div class="metric-row"><span>JSONL log count</span><strong>1,284</strong></div>
+              </div>
+            </div>
+            <div class="evidence-block">
+              <h3>Artifacts</h3>
+              <ul>
+                <li>1,284 synthetic reviewed actions with policy match, risk score, approval state, and reason code.</li>
+                <li>Allow, flag, escalate, and block decision records.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Verification method</h3>
+              <ul>
+                <li>Inspect synthetic action table, filter by decision state, and verify policy/reason-code consistency.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Limitations</h3>
+              <ul>
+                <li>Synthetic audit evidence only; no customer records, endorsements, or production compliance claims.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <a class="text-link" href="https://agentcomply-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Open AgentComply AI</a>
+            </div>
+          </article>
+
+          <article class="evidence-card">
+            <h2>DeenAI</h2>
+            <p>Citation-gated safety architecture prototype for high-risk answer domains.</p>
+            <div class="evidence-block">
+              <h3>What it proves</h3>
+              <ul>
+                <li>High-risk answer surfaces can require source registry validation before rendering.</li>
+                <li>Unsupported claims can be blocked instead of displayed.</li>
+                <li>Fixture-only architecture can demonstrate safety controls without live rulings.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Metrics</h3>
+              <div class="metric-table">
+                <div class="metric-row"><span>Eval pass rate</span><strong>96%</strong></div>
+                <div class="metric-row"><span>Hallucination-risk rate</span><strong>3.1%</strong></div>
+                <div class="metric-row"><span>Citation precision</span><strong>0.97</strong></div>
+                <div class="metric-row"><span>Refusal accuracy</span><strong>0.93</strong></div>
+                <div class="metric-row"><span>p95 latency</span><strong>0.8s</strong></div>
+                <div class="metric-row"><span>Cost/request</span><strong>&lt;$0.01 demo estimate</strong></div>
+                <div class="metric-row"><span>Test count</span><strong>28</strong></div>
+                <div class="metric-row"><span>JSONL log count</span><strong>148</strong></div>
+              </div>
+            </div>
+            <div class="evidence-block">
+              <h3>Artifacts</h3>
+              <ul>
+                <li>Fixture-only architecture, source registry validation, claim-to-citation checks.</li>
+                <li>Render-blocking safety logic and no unsupported live religious rulings.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Verification method</h3>
+              <ul>
+                <li>Submit supported and unsupported fixture cases, then confirm source validation and render-blocking outcomes.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <h3>Limitations</h3>
+              <ul>
+                <li>Safety architecture prototype only; not a live advisory, religious ruling, or production authority.</li>
+              </ul>
+            </div>
+            <div class="evidence-block">
+              <a class="text-link" href="https://deenai-citation-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Open DeenAI</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Zohaib Ahmed · Proof-first portfolio · Demo/test metrics are separated from production claims.</div>
+    </footer>
+    <script src="/assets/site.js"></script>
+  </body>
+</html>

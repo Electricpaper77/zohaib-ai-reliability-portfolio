@@ -1,0 +1,45 @@
+Zohaib Ahmed
+AI Solutions Engineer / LLM Evaluation / Applied GenAI
+Bay Area + Remote
+
+CONTACT
+Email: placeholder@example.com
+LinkedIn: LinkedIn placeholder
+GitHub: https://github.com/Electricpaper77
+
+TARGET ROLES
+AI Solutions Engineer
+LLM Evaluation
+Applied GenAI
+RAG Reliability
+AI Guardrails
+Forward Deployed AI
+
+TECHNICAL SKILLS
+LLM evaluation, RAG reliability checks, hallucination-risk scoring, citation checks, refusal testing, prompt-injection defense, PII redaction, JSONL audit logs, regression gates, release/block/escalate workflows, synthetic audit evidence, safety-oriented product prototyping.
+
+FEATURED PROJECTS
+AgentTrust IQ
+LLM evaluation and AI reliability platform for RAG/agent workflows.
+Proof: citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense, JSONL audit logs, regression gates, release/block/escalate logic.
+Link: https://ai-agent-reliability-platform-rtcd.vercel.app/
+
+AgentComply AI
+Synthetic audit-evidence prototype for regulated AI-agent support workflows.
+Proof: 1,284 synthetic reviewed actions, policy match, risk score, approval state, reason code, allow/flag/escalate/block decisions.
+Link: https://agentcomply-ai.vercel.app/
+
+DeenAI
+Citation-gated safety architecture prototype for high-risk answer domains.
+Proof: fixture-only architecture, source registry validation, claim-to-citation checks, render-blocking safety logic, no unsupported live religious rulings.
+Link: https://deenai-citation-ai.vercel.app/
+
+EXPERIENCE
+AI Reliability and Applied GenAI Portfolio Work
+Built recruiter-facing prototypes that demonstrate testable GenAI systems, auditability, and deployment readiness for AI Solutions Engineer and LLM Evaluation roles. Focus areas include evaluation gates, citation validation, structured logs, safety decisions, and regression-ready artifacts.
+
+EDUCATION
+Add education details.
+
+NOTES
+All metrics and artifacts in this portfolio are demo/test artifacts unless explicitly marked as production customer data. No fake customers, testimonials, certifications, or production claims are included.

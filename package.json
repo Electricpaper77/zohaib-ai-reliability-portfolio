@@ -1,0 +1,22 @@
+{
+  "name": "zohaib-ai-solutions-engineer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recruiter-facing hiring proof dashboard for AI Solutions Engineer, LLM Evaluation, Applied GenAI, and AI Reliability roles.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "keywords": [
+    "ai-solutions-engineer",
+    "llm-evaluation",
+    "applied-genai",
+    "rag-reliability",
+    "ai-reliability",
+    "portfolio"
+  ],
+  "license": "UNLICENSED"
+}
