@@ -15,6 +15,7 @@ const entries = [
   "proof",
   "resume",
   "contact",
+  "portfolio",
   "assets",
   "vercel.json"
 ];

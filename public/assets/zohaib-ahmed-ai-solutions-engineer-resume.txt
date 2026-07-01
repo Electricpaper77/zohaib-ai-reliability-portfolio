@@ -22,6 +22,7 @@ FEATURED PROJECTS
 AgentTrust IQ
 LLM evaluation and AI reliability platform for RAG/agent workflows.
 Proof: citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense, JSONL audit logs, regression gates, release/block/escalate logic.
+Responsible AI relevance: Built AgentTrust IQ, an AI reliability and LLM evaluation platform for RAG/agent workflows with citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense, JSONL audit logs, regression tests, and release/block/escalate gates; designed the proof workflow around responsible AI patterns relevant to high-stakes platforms, including traceability, auditability, human review, and pre-release risk controls.
 Link: https://ai-agent-reliability-platform-rtcd.vercel.app/
 
 AgentComply AI

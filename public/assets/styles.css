@@ -369,6 +369,37 @@ h1 {
   gap: 12px;
 }
 
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.fit-card {
+  min-height: 126px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.fit-card h3 {
+  margin-bottom: 8px;
+  color: var(--navy);
+  font-size: 17px;
+}
+
+.fit-card p,
+.fit-note {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.fit-note {
+  margin-top: 14px;
+}
+
 .step {
   min-height: 114px;
   padding: 16px;
@@ -638,6 +669,7 @@ h1 {
 
   .projects-grid,
   .proof-grid,
+  .fit-grid,
   .reviewer-path {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -690,6 +722,7 @@ h1 {
 
   .projects-grid,
   .proof-grid,
+  .fit-grid,
   .reviewer-path,
   .metric-strip {
     grid-template-columns: 1fr;
