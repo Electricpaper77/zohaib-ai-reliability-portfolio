@@ -286,6 +286,12 @@ h1 {
   line-height: 1;
 }
 
+.metric-mini.metric-blocked strong {
+  color: var(--amber);
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
 .metric-mini span {
   display: block;
   margin-top: 7px;
@@ -486,6 +492,13 @@ h1 {
   gap: 12px;
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 12px;
+}
+
 .text-link {
   color: var(--cyan);
   font-size: 14px;
@@ -570,6 +583,89 @@ h1 {
 .metric-row strong {
   justify-self: end;
   color: var(--navy);
+}
+
+.metric-value-small {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+}
+
+.architecture-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.72fr);
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+}
+
+.architecture-flow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.architecture-node {
+  width: min(100%, 360px);
+  padding: 12px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background: #fff;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.architecture-node-strong {
+  border-color: var(--cyan);
+  background: #ecfeff;
+}
+
+.architecture-arrow {
+  color: var(--cyan);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.architecture-controls {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.architecture-controls span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.architecture-proofline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.architecture-proofline b {
+  color: var(--cyan);
 }
 
 .resume-layout {
@@ -663,7 +759,8 @@ h1 {
 @media (max-width: 920px) {
   .hero-grid,
   .resume-layout,
-  .contact-grid {
+  .contact-grid,
+  .architecture-board {
     grid-template-columns: 1fr;
   }
 
@@ -735,6 +832,21 @@ h1 {
 
   .log-row {
     grid-template-columns: 1fr;
+  }
+
+  .architecture-arrow {
+    line-height: 1;
+    text-align: center;
+    transform: none;
+  }
+
+  .card-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .card-links {
+    justify-content: flex-start;
   }
 
   .decision {
