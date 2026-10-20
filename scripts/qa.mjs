@@ -19,8 +19,6 @@ const requiredCopy = [
   "Responsible AI / Regulated Workflow Relevance",
   "Metric Scope: All metrics are portfolio/demo/test artifacts unless explicitly marked as production customer data.",
   "No fake customers",
-  "placeholder@example.com",
-  "LinkedIn placeholder",
   "https://github.com/Electricpaper77"
 ];
 

@@ -1,46 +1,44 @@
 Zohaib Ahmed
-AI Solutions Engineer / LLM Evaluation / Applied GenAI
+AI Reliability & Infrastructure Engineer
+AI Solutions Engineering · LLM Evaluation · Kubernetes · AI Serving
 Bay Area + Remote
 
-CONTACT
-Email: placeholder@example.com
-LinkedIn: LinkedIn placeholder
-GitHub: https://github.com/Electricpaper77
-
 TARGET ROLES
-AI Solutions Engineer
-LLM Evaluation
-Applied GenAI
-RAG Reliability
-AI Guardrails
-Forward Deployed AI
+AI Infrastructure Engineer · ML Infrastructure Engineer · AI Reliability Engineer
+AI Platform Engineer · GenAI Infrastructure Engineer · AI Solutions Engineer
+LLM Evaluation Engineer
+
+CONTACT
+GitHub: https://github.com/Electricpaper77
+Portfolio: https://zohaib-mlops-portfolio.vercel.app/
+AgentTrust IQ: https://ai-agent-reliability-platform-rtcd.vercel.app/
+Release: https://github.com/Electricpaper77/ai-rag-eval-platform/releases/tag/v1.0.0
 
 TECHNICAL SKILLS
-LLM evaluation, RAG reliability checks, hallucination-risk scoring, citation checks, refusal testing, prompt-injection defense, PII redaction, JSONL audit logs, regression gates, release/block/escalate workflows, synthetic audit evidence, safety-oriented product prototyping.
+AI / LLM: LLM evaluation, RAG reliability, citation validation, hallucination-risk testing, refusal testing, prompt-injection defense, PII controls, structured evaluation pipelines.
+Infrastructure: Kubernetes, Helm, GitOps, Terraform validation, Docker, CI/CD, distributed inference, autoscaling, workload scheduling, NetworkPolicy, RBAC, persistent storage.
+Observability / Reliability: Prometheus, Grafana, Loki, SLO validation, latency/error diagnostics, chaos testing, disaster-recovery validation, regression gates.
+Systems: Python, FastAPI, pytest, Linux, cgroups, CPU throttling, OOM diagnostics, JSONL telemetry.
+Supply Chain: SBOM generation, Trivy vulnerability scanning, Cosign verification, Kyverno policy validation.
 
-FEATURED PROJECTS
-AgentTrust IQ
-LLM evaluation and AI reliability platform for RAG/agent workflows.
-Proof: citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense, JSONL audit logs, regression gates, release/block/escalate logic.
-Responsible AI relevance: Built AgentTrust IQ, an AI reliability and LLM evaluation platform for RAG/agent workflows with citation checks, hallucination-risk scoring, PII redaction, prompt-injection defense, JSONL audit logs, regression tests, and release/block/escalate gates; designed the proof workflow around responsible AI patterns relevant to high-stakes platforms, including traceability, auditability, human review, and pre-release risk controls.
-Link: https://ai-agent-reliability-platform-rtcd.vercel.app/
-
-AgentComply AI
-Synthetic audit-evidence prototype for regulated AI-agent support workflows.
-Proof: 1,284 synthetic reviewed actions, policy match, risk score, approval state, reason code, allow/flag/escalate/block decisions.
-Link: https://agentcomply-ai.vercel.app/
-
-DeenAI
-Citation-gated safety architecture prototype for high-risk answer domains.
-Proof: fixture-only architecture, source registry validation, claim-to-citation checks, render-blocking safety logic, no unsupported live religious rulings.
-Link: https://deenai-citation-ai.vercel.app/
+FEATURED PROJECT
+AgentTrust IQ v1.0.0 — AI Reliability & Infrastructure Platform
+- Built and released an AI reliability infrastructure platform spanning Kubernetes workload operations, distributed inference, autoscaling, observability, resilience, supply-chain controls, and Linux resource diagnostics.
+- Validated Kubernetes lifecycle operations, scheduling/preemption, tenant isolation, Helm/GitOps workflows, and Terraform configuration in reproducible CI and disposable multi-node environments.
+- Implemented distributed inference, canary/rollback workflows, capacity handling, Prometheus/Grafana/Loki observability, chaos testing, and disaster-recovery validation.
+- Added software-supply-chain controls including SBOM generation, vulnerability scanning, Cosign verification, and Kyverno policy checks.
+- Released v1.0.0 with 337 passing regression tests and HTTP 200 health/chat runtime smoke validation.
+Live: https://ai-agent-reliability-platform-rtcd.vercel.app/
+GitHub: https://github.com/Electricpaper77/ai-rag-eval-platform
+Release: https://github.com/Electricpaper77/ai-rag-eval-platform/releases/tag/v1.0.0
 
 EXPERIENCE
 AI Reliability and Applied GenAI Portfolio Work
-Built recruiter-facing prototypes that demonstrate testable GenAI systems, auditability, and deployment readiness for AI Solutions Engineer and LLM Evaluation roles. Focus areas include evaluation gates, citation validation, structured logs, safety decisions, and regression-ready artifacts.
+Built recruiter-facing prototypes that demonstrate testable GenAI systems, auditability, and deployment-oriented validation. Focus areas include LLM evaluation, structured logs, safety decisions, regression gates, infrastructure evidence, and reproducible CI workflows. This portfolio work is presented separately from professional employment.
 
 EDUCATION
-Add education details.
+B.S. Business Administration — Management Information Systems
+San José State University
 
-NOTES
-All metrics and artifacts in this portfolio are demo/test artifacts unless explicitly marked as production customer data. No fake customers, testimonials, certifications, or production claims are included.
+EVIDENCE BOUNDARY
+Infrastructure evidence is from CI and disposable multi-node/containerized environments; real AMD ROCm hardware validation remains pending.
